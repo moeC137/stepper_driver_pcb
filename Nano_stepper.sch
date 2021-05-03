@@ -1,0 +1,177 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_Nano_v3.x A2
+U 1 1 60888BB8
+P 6050 3900
+F 0 "A2" H 6050 2811 50  0000 C CNN
+F 1 "Arduino_Nano_v3.x" H 6050 2720 50  0000 C CNN
+F 2 "Module:Arduino_Nano" H 6050 2629 50  0001 C CIN
+F 3 "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf" H 6050 3900 50  0001 C CNN
+	1    6050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A1
+U 1 1 6088B521
+P 3650 3450
+F 0 "A1" H 3700 4331 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 3700 4240 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 3925 2700 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 3750 3150 50  0001 C CNN
+	1    3650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 608A413A
+P 3850 4250
+F 0 "#PWR0101" H 3850 4000 50  0001 C CNN
+F 1 "GND" H 3855 4077 50  0000 C CNN
+F 2 "" H 3850 4250 50  0001 C CNN
+F 3 "" H 3850 4250 50  0001 C CNN
+	1    3850 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 608A4DF2
+P 3650 4250
+F 0 "#PWR0102" H 3650 4000 50  0001 C CNN
+F 1 "GND" H 3655 4077 50  0000 C CNN
+F 2 "" H 3650 4250 50  0001 C CNN
+F 3 "" H 3650 4250 50  0001 C CNN
+	1    3650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 608A5D34
+P 4750 3450
+F 0 "J1" H 4722 3424 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 4722 3333 50  0000 R CNN
+F 2 "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" H 4750 3450 50  0001 C CNN
+F 3 "~" H 4750 3450 50  0001 C CNN
+	1    4750 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3350 4550 3350
+Wire Wire Line
+	4150 3450 4550 3450
+Wire Wire Line
+	4150 3550 4550 3550
+Wire Wire Line
+	4150 3650 4550 3650
+Wire Wire Line
+	5550 3600 5150 3600
+Wire Wire Line
+	5150 3600 5150 4550
+Wire Wire Line
+	5150 4550 3100 4550
+Wire Wire Line
+	3100 4550 3100 3550
+Wire Wire Line
+	3100 3550 3250 3550
+Wire Wire Line
+	5550 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 4700
+Wire Wire Line
+	5300 4700 2950 4700
+Wire Wire Line
+	2950 4700 2950 3450
+Wire Wire Line
+	2950 3450 3250 3450
+Wire Wire Line
+	3250 3150 3050 3150
+Wire Wire Line
+	3050 3150 3050 3050
+Wire Wire Line
+	3050 3050 3250 3050
+$Comp
+L power:GND #PWR0103
+U 1 1 608AEE2E
+P 6150 4900
+F 0 "#PWR0103" H 6150 4650 50  0001 C CNN
+F 1 "GND" H 6155 4727 50  0000 C CNN
+F 2 "" H 6150 4900 50  0001 C CNN
+F 3 "" H 6150 4900 50  0001 C CNN
+	1    6150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 608AF990
+P 6050 4900
+F 0 "#PWR0104" H 6050 4650 50  0001 C CNN
+F 1 "GND" H 6055 4727 50  0000 C CNN
+F 2 "" H 6050 4900 50  0001 C CNN
+F 3 "" H 6050 4900 50  0001 C CNN
+	1    6050 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0105
+U 1 1 608B4D00
+P 4400 2800
+F 0 "#PWR0105" H 4400 2650 50  0001 C CNN
+F 1 "+12V" H 4415 2973 50  0000 C CNN
+F 2 "" H 4400 2800 50  0001 C CNN
+F 3 "" H 4400 2800 50  0001 C CNN
+	1    4400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2800 4250 2800
+Wire Wire Line
+	4000 2800 4000 2750
+Wire Wire Line
+	4000 2750 3850 2750
+Wire Wire Line
+	6250 2900 6250 2200
+Wire Wire Line
+	6250 2200 3650 2200
+Wire Wire Line
+	3650 2200 3650 2750
+$Comp
+L Device:C_Polarized_Small C1
+U 1 1 608BADC4
+P 4250 3000
+F 0 "C1" H 4338 3046 50  0000 L CNN
+F 1 "C_Polarized_Small" H 4338 2955 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D13.0mm_P7.50mm" H 4250 3000 50  0001 C CNN
+F 3 "~" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2900 4250 2800
+Connection ~ 4250 2800
+Wire Wire Line
+	4250 2800 4000 2800
+$Comp
+L power:GND #PWR0106
+U 1 1 608BBEE0
+P 4250 3100
+F 0 "#PWR0106" H 4250 2850 50  0001 C CNN
+F 1 "GND" H 4255 2927 50  0000 C CNN
+F 2 "" H 4250 3100 50  0001 C CNN
+F 3 "" H 4250 3100 50  0001 C CNN
+	1    4250 3100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
