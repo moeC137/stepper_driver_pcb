@@ -2,3 +2,5 @@
 
 Stepper driver board for a EDM Z-Axis
 ![alt text](https://raw.githubusercontent.com/moeC137/stepper_driver_pcb/main/circuit.png)
+
+![alt text](https://raw.githubusercontent.com/moeC137/stepper_driver_pcb/main/pcb_payout.png)
