@@ -1,6 +1,10 @@
 # stepper_driver_pcb
 
+Video series:
+https://www.youtube.com/playlist?list=PL1WGC6yQh6iIVykta8OX8R-CPlR6SFzXf
 
+3D print files:
+https://www.thingiverse.com/thing:4840651
 
 
 Stepper driver board for a EDM Z-Axis in Kicad
